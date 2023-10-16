@@ -14,7 +14,8 @@
 	<td>Grup</td>
 	</tr>
 	<?php
-		// Nos conectamos a mysql con el nombre de usuario y contrase�a correspondiente
+		// Nos conectamos a mysql con el nombre de usuario y contraseña
+		// correspondiente
 		$servidor = "localhost";
 		$usuari = "root";
 		$password = "";
@@ -30,7 +31,6 @@
 		$result=mysqli_query($link,$sentencia);
 		};
 		if(!$result){
-
 			echo "¡No existe el alumno!";
 		}
 		else{
